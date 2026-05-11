@@ -5,7 +5,7 @@ from threading import Thread
 from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("8737760456:AAHIFgMC-fChr8yVyBOC4Az22g5FhjxbwZ4")
 LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "0"))
 
 # ---------------- DATABASE ----------------
